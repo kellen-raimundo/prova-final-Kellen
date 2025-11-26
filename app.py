@@ -243,4 +243,3 @@ class DashboardVendasApp:
         self.canvas = FigureCanvasTkAgg(fig, master=self.grafico_container)
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
-
